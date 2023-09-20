@@ -33,7 +33,7 @@ require '../vendor/autoload.php';
             echo "<p><strong>Name:</strong> $name</p>";
             echo "<p><strong>Email:</strong> $email</p>";;
         } else {
-            echo "<p>Form data is missing.</p>";
+            echo "<p>Er is fout gegaan.</p>";
         }
     }
     ?>
