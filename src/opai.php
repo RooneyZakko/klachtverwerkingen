@@ -1,8 +1,6 @@
 <?php 
 
 require '../vendor/autoload.php';
-// require '../phpmailer/phpmailer';
-
 
 ?> 
 
@@ -31,8 +29,7 @@ require '../vendor/autoload.php';
             $email = $_POST['email'];
             $omschrijving = $_POST['omschrijving'];
 
-            echo "<h2>Uw klacht is in behandeling</h2> ";
-            // echo "<br>";
+            echo "<h2>Uw klacht is in behandeling</h2>";
             echo "<p><strong>Name:</strong> $name</p>";
             echo "<p><strong>Email:</strong> $email</p>";;
         } else {

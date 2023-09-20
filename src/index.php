@@ -16,15 +16,9 @@
         <input type="email" id="email" name="email" required><br>
         
         <label for="omschrijving">Omschrijving klacht:</label><br>
-        <textarea id="omschrijving" name="omschrijving" rows="5" cols="40" required></textarea><br>
+        <textarea id="omschrijving" name="omschrijving"  required></textarea><br>
         
-        <input type="submit" value="Indienen">
+        <input type="submit" value="Versturen">
     </form>
 </body>
 </html>
-<?php 
-
-require '../vendor/autoload.php';
-require '../phpmailer/phpmailer';
-
-?> 
